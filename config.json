@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Python Virtual Environment",
+    "shortcuts": ["venv", "v"],
+    "description": "Copies the venv creation script to the current folder and runs it.",
+    "path": "venv/venv_create.bat",
+    "copy_mode": "single_file",
+    "post_action": "run_script",
+    "color": "teal",
+    "action_args": {
+      "script_name": "venv_create.bat"
+    }
+  },
+  {
+    "name": "Python Code",
+    "shortcuts": ["code", "c"],
+    "description": "Creates a project structure in the current folder and renames nested project folders.",
+    "path": "code",
+    "copy_mode": "directory_contents",
+    "post_action": "rename_folder",
+    "color": "teal",
+    "action_args": {
+      "targets_to_rename": ["Project", "Project/Project"]
+    }
+  },
+  {
+    "name": "Comfy Node",
+    "shortcuts": ["comfy", "node", "cn"],
+    "description": "A template for a custom ComfyUI node.",
+    "path": "comfynode",
+    "color": "green"
+  },
+  {
+    "name": "MCP Server",
+    "shortcuts": ["mcp", "tool"],
+    "description": "A template for a MCP Tool servers for AI LLMs.",
+    "path": "mcp",
+    "color": "green"
+  },
+]

@@ -1,0 +1,15 @@
+[project]
+name = "my-custom-node-pack"
+description = "Write version descriptions here"
+version = "0.1"
+license = { file = "LICENSE" }
+dependencies = ["configparser"] # Add requirements here
+
+[project.urls]
+Repository = "https://github.com/YourUser/ComfyUI-your-nodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "youruser"
+DisplayName = "ComfyUI-your-nodes"
+Icon = ""
