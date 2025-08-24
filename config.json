@@ -36,5 +36,5 @@
     "description": "A template for a MCP Tool servers for AI LLMs.",
     "path": "mcp",
     "color": "green"
-  },
+  }
 ]
